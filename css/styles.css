@@ -1,0 +1,99 @@
+
+
+/* header area */
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 100px;
+    margin: 100px 100px;
+  
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: normal;
+  background: none;
+  border: none;
+}
+
+.flogo {
+    height: 100px;
+    width: 300px;
+}
+.hbuttons{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    align-content: center;
+    justify-content: center;
+}
+.buyb{
+    width: 100px;
+  height: 50px;
+  background-color: #346ce4;
+  border-radius: 50% ;
+  color: white;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  }
+  .homeb{
+       display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  .featuresb{
+      display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .learnb{
+      display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .pricesb{
+      display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .hireb{
+      display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+
+  .homeb:hover{
+    color:#346ce4;
+  }
+   .featuresb:hover{
+    color:#346ce4;
+  }
+   .learnb:hover{
+    color:#346ce4;
+  }
+   .pricesb:hover{
+    color:#346ce4;
+  }
+   .hireb:hover{
+    color:#346ce4;
+  }
+  .buyb:hover{
+    width: 100px;
+  height: 50px;
+  background-color: white;
+  border-radius: 50% ;
+  color: #346ce4;
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  border: 2px solid #346ce4;
+  }
