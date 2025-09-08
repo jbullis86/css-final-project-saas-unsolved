@@ -31,10 +31,10 @@ a {
     justify-content: center;
 }
 .buyb{
-    width: 100px;
-  height: 50px;
-  background-color: #346ce4;
-  border-radius: 50% ;
+    width: 75px;
+  height: 30px;
+  background-color: #2476FF;
+  border-radius: 5vh ;
   color: white;
     display: flex;
   justify-content: center;
@@ -42,6 +42,7 @@ a {
   font-weight: bold;
   border: 2px solid white;
   }
+
   .homeb{
        display: flex;
   justify-content: center;
@@ -72,29 +73,133 @@ a {
   }
 
   .homeb:hover{
-    color:#346ce4;
+    color:#2476FF;
   }
    .featuresb:hover{
-    color:#346ce4;
+    color:#2476FF;
   }
    .learnb:hover{
-    color:#346ce4;
+    color:#2476FF;
   }
    .pricesb:hover{
-    color:#346ce4;
+    color:#2476FF;
   }
    .hireb:hover{
-    color:#346ce4;
+    color:#2476FF;
   }
   .buyb:hover{
-    width: 100px;
-  height: 50px;
+   width: 75px;
+  height: 30px;
   background-color: white;
-  border-radius: 50% ;
-  color: #346ce4;
+  border-radius: 5vh ;
+  color: #2476FF;
     display: flex;
   justify-content: center;
   align-items: center;
   font-weight: bold;
-  border: 2px solid #346ce4;
+  border: 2px solid #2476FF;
   }
+  
+
+
+  /*   Section 1 Empower  ***/
+.homeem {
+  background: transparent url(../assets/bg/background-top.svg);
+  width: 100%;
+  height: 50vh; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: row;
+}
+
+
+
+.home{
+    display: flex;
+    width: 75%;
+    height: 50vh;
+    flex-direction: row;
+    flex: 1;
+    justify-content: space-evenly;
+    align-content: center;
+    gap: 50px;    
+}
+
+.emb1{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: 20px;
+}
+.emb2{
+        display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+.empower{
+    width: 250px;
+    font-size: 40px;
+    font-style: bold;
+    text-align: start;
+}
+
+.emlnk{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    gap: 50px;
+   
+}
+.play{
+    width: 100px;
+    height: 30px;           
+    background-color: #2196F3;
+    border-radius: 5vh; 
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items:center;
+    gap: 3px;
+}
+.play-button {
+  width: 20px;
+  height: 20px;
+  background-color: white; 
+  border-radius: 50%;        
+  position: relative;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+.play-button::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%, -50%);
+  width: 0;
+  height: 0;
+  border-left: 8px solid #2476FF;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+}
+
+.learnmore{
+    width: 200px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+     justify-content: start;
+    align-items:center;
+    gap: 10px;
+}
+
+.own{
+    text-align: start;
+}
