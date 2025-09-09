@@ -118,12 +118,10 @@ a {
 
 .home{
     display: flex;
-    width: 75%;
+    width: 50%;
     height: 50vh;
     flex-direction: row;
-    flex: 1;
     justify-content: space-evenly;
-    align-content: center;
     gap: 50px;    
 }
 
@@ -268,45 +266,57 @@ a {
 }
 
 .google{
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     background-color: white;
     padding: 5px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
 }
 .asana img{
-    height: 50px;
-    width: 50px;
+    height: 48px;
+    width: 48px;
+    padding: 16px;
 }
 .asana{
+    height: 80px;
+    width: 80px;
     border-radius: 50%;
     background-color: white;
-    padding: 15px;
+    padding: 16px;
 }
 .atlassina img{
-    height: 50px;
-    width: 50px;
+    height: 48px;
+    width: 48px;
 
 }
 
 .atlassina{
+    height: 80px;
+    width: 80px;
     border-radius: 50%;
     background-color: white;
-    padding: 15px;
+    padding: 30px;
 }
 .ic1b1{
     display: flex;
     flex-direction: row;
-    gap: 150px;
+    justify-content: space-evenly;
+    gap: 100px;
 }
 
 .ic1b2{
-    margin-right: 100px;
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .iconr1{
     display: flex;
     flex-direction: row; 
-    gap: 250px;
-    justify-content: flex-end;
+    gap: 100px;
+    justify-content: center;
 }
 
 .paypal img{
@@ -332,11 +342,39 @@ a {
 }
 
 .iconr2{
-    width: 400px;
-    margin-left: 300px;
+
     display: flex;
     flex-direction: row;
-    align-content: center;
-    justify-content: space-between;
-    gap: 50px;
+    justify-content: center;
+    gap: 200px;
+}
+
+.google-ads img{
+    height: 40px;
+    width: 40px;
+}
+
+.calendar img{
+    height: 50px;
+    width: 50px;
+}
+
+.google-ads{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 15px;
+}
+
+.calendar{
+    border-radius: 50%;
+    background-color: white;
+    padding: 15px;
+}
+
+.iconr3{
+    display: flex;
+    flex-direction: row;
+    gap: ;
 }
