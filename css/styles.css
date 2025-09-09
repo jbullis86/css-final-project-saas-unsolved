@@ -128,17 +128,13 @@ a {
 }
 
 .emb1{
+    width: 50%;
     display:flex;
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    gap: 20px;
-}
-.emb2{
-        display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
+    gap: 150px;
+    border: 2px solid blueviolet;
 }
 
 .empower{
@@ -206,4 +202,141 @@ a {
   border-radius: 50%;        
   position: relative;
   cursor: pointer;
+}
+
+.play:hover{
+    width: 100px;
+    height: 30px;           
+    background-color: white;
+    border-radius: 5vh; 
+    color: #2196F3;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items:center;
+    gap: 3px;
+    border: 2px solid #2196f3; 
+}
+
+.learnmore{
+    width: 100px;
+    height: 30px;
+    color: #2476FF;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items:center;
+    gap: 10px;
+}
+
+.play-button::before:hover {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-40%, -50%);
+  width: 0;
+  height: 0;
+  border-left: 8px solid white;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+}
+
+.play-button:hover {
+  width: 15px;
+  height: 15px;
+  background-color: #2476FF; 
+  border-radius: 50%;        
+  position: relative;
+  cursor: pointer;
+}
+
+.emb2{
+    width: 50%;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    gap: 50px;
+
+}
+
+
+.google img{
+    height: 40px;
+    width: 40px;
+}
+
+.google{
+    border-radius: 50%;
+    background-color: white;
+    padding: 5px;
+}
+.asana img{
+    height: 50px;
+    width: 50px;
+}
+.asana{
+    border-radius: 50%;
+    background-color: white;
+    padding: 15px;
+}
+.atlassina img{
+    height: 50px;
+    width: 50px;
+
+}
+
+.atlassina{
+    border-radius: 50%;
+    background-color: white;
+    padding: 15px;
+}
+.ic1b1{
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+}
+
+.ic1b2{
+    margin-right: 100px;
+}
+
+.iconr1{
+    display: flex;
+    flex-direction: row; 
+    gap: 250px;
+    justify-content: flex-end;
+}
+
+.paypal img{
+    height: 50px;
+    width: 50px;
+}
+
+.weave img{
+    height: 50px;
+    width: 50px;
+}
+
+.paypal{
+    border-radius: 50%;
+    background-color: white;
+    padding: 15px;
+}
+
+.weave{
+    border-radius: 50%;
+    background-color: white;
+    padding: 15px;
+}
+
+.iconr2{
+    width: 400px;
+    margin-left: 300px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: space-between;
+    gap: 50px;
 }
