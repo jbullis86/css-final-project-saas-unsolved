@@ -128,22 +128,22 @@ a {
     width: 50%;
     display:flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     align-content: space-evenly;
 }
 
 .empower{
     width: 300px;
-    font-size: 50px;
+    font-size: 40px;
     font-style: bold;
     text-align: start;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .emlnk{
     width: 500px;
+    margin-top: 30px;
     display: flex;
     flex-direction: row;
     justify-content: start;
@@ -152,6 +152,7 @@ a {
 }
 
 .own{
+    color: grey;
     display: flex;
     justify-content: start;
     align-content: center;
