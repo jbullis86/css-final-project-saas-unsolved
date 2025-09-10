@@ -148,6 +148,7 @@ a {
     flex-direction: row;
     justify-content: start;
     align-content: center;
+    gap: 50px;
 }
 
 .own{
