@@ -274,9 +274,12 @@ a {
     border-radius: 50%;
     background-color: white;
     padding: 5px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
     display: flex;
     align-content: center;
     justify-content: center;
+    align-items: center;
+    justify-items: center;
 }
 .asana img{
     height: 48px;
@@ -289,9 +292,12 @@ a {
     border-radius: 50%;
     background-color: white;
     padding: 16px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
     display: flex;
     align-content: center;
     justify-content: center;
+         align-items: center;
+    justify-items: center;
 }
 .atlassina img{
     height: 48px;
@@ -305,20 +311,25 @@ a {
     border-radius: 50%;
     background-color: white;
     padding: 30px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
     display: flex;
     align-content: center;
     justify-content: center;
+         align-items: center;
+    justify-items: center;
 }
 .ic1b1{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     gap: 100px;
+    border: 2px solid orange;
 }
 
 .ic1b2{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    gap: 200px;
 }
 
 .iconr1{
@@ -344,9 +355,12 @@ a {
     border-radius: 50%;
     background-color: white;
     padding: 15px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
     display: flex;
     align-content: center;
     justify-content: center;
+         align-items: center;
+    justify-items: center;
 }
 
 .weave{
@@ -355,9 +369,12 @@ a {
     border-radius: 50%;
     background-color: white;
     padding: 15px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
     display: flex;
     align-content: center;
     justify-content: center;
+         align-items: center;
+    justify-items: center;
 }
 
 .iconr2{
@@ -384,9 +401,12 @@ a {
     border-radius: 50%;
     background-color: white;
     padding: 15px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
     display: flex;
     align-content: center;
     justify-content: center;
+    align-items: center;
+    justify-items: center;
 }
 
 .calendar{
@@ -395,9 +415,12 @@ a {
     border-radius: 50%;
     background-color: white;
     padding: 15px;
+    box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.25);
     display: flex;
     align-content: center;
     justify-content: center;
+    align-items: center;
+    justify-items: center;
 }
 
 .iconr3{
