@@ -114,14 +114,13 @@ a {
   flex-direction: row;
 }
 
-
-
 .home{
     display: flex;
-    width: 50%;
-    height: 50vh;
+    width: 100%;
+    height: 406px;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
+    align-content: center;
     gap: 50px;    
 }
 
@@ -129,17 +128,18 @@ a {
     width: 50%;
     display:flex;
     flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    gap: 150px;
-    border: 2px solid blueviolet;
+    justify-content: space-around;
+    align-content: space-evenly;
 }
 
 .empower{
-    width: 250px;
+    width: 100%;
     font-size: 40px;
     font-style: bold;
     text-align: start;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .emlnk{
@@ -148,11 +148,12 @@ a {
     flex-direction: row;
     justify-content: start;
     align-content: center;
-    gap: 50px;
 }
 
 .own{
-    text-align: start;
+    display: flex;
+    justify-content: start;
+    align-content: center;
 }
 
 .play{
@@ -320,22 +321,26 @@ a {
 }
 
 .paypal img{
-    height: 50px;
-    width: 50px;
+    height: 48px;
+    width: 48px;
 }
 
 .weave img{
-    height: 50px;
-    width: 50px;
+    height: 48px;
+    width: 48px;
 }
 
 .paypal{
+    height: 80px;
+    width: 80px;
     border-radius: 50%;
     background-color: white;
     padding: 15px;
 }
 
 .weave{
+    height: 80px;
+    width: 80px;
     border-radius: 50%;
     background-color: white;
     padding: 15px;
@@ -355,8 +360,8 @@ a {
 }
 
 .calendar img{
-    height: 50px;
-    width: 50px;
+    height: 48px;
+    width: 48px;
 }
 
 .google-ads{
@@ -368,6 +373,8 @@ a {
 }
 
 .calendar{
+    height: 80px;
+    width: 80px;
     border-radius: 50%;
     background-color: white;
     padding: 15px;
@@ -376,5 +383,8 @@ a {
 .iconr3{
     display: flex;
     flex-direction: row;
-    gap: ;
+    justify-content: space-evenly;
+    align-content: space-around;
+    gap: 10px;
+    border: 2px solid red;
 }
