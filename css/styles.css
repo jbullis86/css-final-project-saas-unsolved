@@ -424,9 +424,10 @@ a {
 }
 
 .iconr3{
+    margin-right: 100px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: end;
     align-content: end;
-    gap: 100px;
+    gap: 150px;
 }
