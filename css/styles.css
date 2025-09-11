@@ -591,3 +591,34 @@ p{
     color: #677788;
     font-size: 12px;
 }
+.img1 img{
+    height:50px;
+    width: 50px;
+}
+
+.img2 img{
+    height:50px;
+    width: 50px;
+}
+.img3 img{
+    height:50px;
+    width: 50px;
+}
+.img4 img{
+    height:50px;
+    width: 50px;
+}
+.pbr{
+    display: flex;
+    flex-direction: column;
+}
+
+.pbr1t{
+    display: flex;
+    flex-direction: row;
+}
+
+.pbr1b{
+    display: flex;
+    flex-direction: row;
+}
