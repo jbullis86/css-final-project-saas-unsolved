@@ -907,12 +907,14 @@ button[type="submit"]:hover {
 }
 
 .address{
+    color: #677788;
     display: flex;
     flex-direction: row;
     gap: 10px;
 }
 
 .phone{
+    color: #677788;
     display: flex;
     gap: 10px;
 }
