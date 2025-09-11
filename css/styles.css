@@ -711,7 +711,7 @@ section{
 /* Hire Us section **/
 
 .hireus{
-    margin: 20px 20px;
+    margin: 10px 10px;
     background-color: #20335b;
     display: flex;
     flex-direction: row;
@@ -723,13 +723,13 @@ section{
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 65vh;
 }
 .box2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
+  min-height: 65vh;
 }
 
 .hiusinb {
