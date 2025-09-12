@@ -898,6 +898,12 @@ button[type="submit"]:hover {
     justify-content: center;
     align-content: center;
 }
+
+
+/*  Footer ***/
+
+
+
 .mainftrbx{
     display: flex;
     flex-direction: row;
@@ -949,3 +955,132 @@ button[type="submit"]:hover {
     gap: 10px;
 }
 
+.phone:hover{
+    color: #1877ff;
+}
+
+.address:hover{
+    color: #1877ff;
+}
+
+.company{
+    font-weight: bold;
+    font-size: 18px;  
+}
+
+.ftrbx2{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.about:hover{
+    color: #1877ff;
+}
+
+.career:hover{
+    color: #1877ff;
+}
+
+.blog:hover{
+    color: #1877ff;
+}
+.customers:hover{
+    color: #1877ff;
+}
+.hireus2:hover{
+    color: #1877ff;
+}
+
+.features{
+    font-weight: bold;
+    font-size: 18px;  
+} 
+
+.ftrbx3{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.press:hover{
+    color: #1877ff; 
+}
+
+.release:hover{
+    color: #1877ff;
+}
+.integrations:hover{
+    color: #1877ff;
+}
+
+.pricing:hover{
+    color: #1877ff;
+}
+
+.ftrbx4{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.documentation{
+    font-weight: bold;
+    font-size: 18px; 
+}
+
+.support:hover{
+    color: #1877ff;
+}
+
+.docs:hover{
+    color: #1877ff;
+}
+
+.status:hover{
+    color: #1877ff;
+}
+
+.apiref:hover{
+    color: #1877ff;
+}
+
+.tech:hover{
+    color: #1877ff;
+}
+
+.ftrbx5{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.resources{
+    font-weight: bold;
+    font-size: 18px; 
+}
+
+.fa-circle-info{
+    color: #677788;
+    padding: 10px;
+}
+
+.help{
+   color: #677788; 
+}
+
+.fa-circle-user{
+    color: #677788;
+    padding: 10px;
+}
+
+.account{
+    color: #677788; 
+}
+
+.help:hover{
+    color: #1877ff;
+}
+
+.account:hover{
+    color: #1877ff;
+}
