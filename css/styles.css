@@ -2972,7 +2972,7 @@ section{
   height: 40px;
   border-radius: 50%;
   object-fit: cover;
-  dispaly: flex;
+  display: flex;
   justify-content: center;
   align-content: center;
 }
