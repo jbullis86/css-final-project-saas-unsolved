@@ -2301,7 +2301,7 @@ header{
   align-items: center;
   text-align: center;
   flex-direction: column;
-  gap: 20px;
+  gap: 50px;
 }
 
 .home{
@@ -2410,6 +2410,7 @@ header{
 .emb2{
     width: 100%;
     display:flex;
+    position: relative;
     flex-direction: column;
     justify-content: center;
     align-content: center;
@@ -2475,13 +2476,7 @@ header{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    gap: 100px;
-}
-
-.ic1b2{
-    display: flex;
-    justify-content: space-between;
-    gap: 200px;
+    gap: 40px;
 }
 
 .iconr1{
@@ -2533,8 +2528,7 @@ header{
 
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    gap: 200px;
+    justify-content: space-around;
 }
 
 .google-ads img{
@@ -2576,12 +2570,12 @@ header{
 }
 
 .iconr3{
-    margin-right: 100px;
+    margin-right: 50px;
     display: flex;
     flex-direction: row;
     justify-content: end;
     align-content: end;
-    gap: 150px;
+    gap: 100px;
 }
 
 .learn{
@@ -2602,28 +2596,30 @@ header{
     gap: 10px;
 }
 .wfs{
-    margin-top: 200px;
+    margin-top: 300px;
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 10px;
 }
 
-.table {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 80%;
-  margin: 50px auto;
-  position: relative;
+.table{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: flex-end;
+    gap: 10px;
 }
 
 .mb1 {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   position: relative;
   flex: 1;
+  gap: 25px;
 }
 
 .circle {
@@ -2636,25 +2632,12 @@ header{
   z-index: 1;
 }
 
-
-.mb1:not(:last-child)::after {
-  content: "";
-  position: absolute;
-  top: 15px; 
-  left: 50%;
-  width: 100%;
-  height: 2px;
-  background-color: #e6e9f2;
-  z-index: 0;
-}
-
 .label {
   margin-top: 10px;
   text-align: center;
   font-size: 14px;
   color: #000;
 }
-
 
 /* Pricing section ***/
 .ptitle{
@@ -2716,6 +2699,7 @@ header{
     font-size: 50px;
     font-weight: bold;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: baseline;
     gap: 20px;
@@ -2795,11 +2779,11 @@ p{
 
 .pbr1t{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     height: 100%;
     width: 100%;
-    justify-content: space-evenly;
-    align-content: space-between;
+    justify-content: center;
+    align-content: center;
     gap: 20px;
 }
 .pbr{
@@ -2807,16 +2791,19 @@ p{
     height: 452px;
     width: 100%;
     display: flex;
+    justify-content: center;
+    align-content: center;
     gap: 20px;
 }
 
 .pbr1b{
     display: flex;
-    flex-direction: row;
+    position: relative;
+    flex-direction: column;
     height: 100%;
     width: 100%;
-    justify-content: space-evenly;
-    align-content: space-between;
+    justify-content: center;
+    align-content: center;
     gap: 20px;
 }
 
@@ -2886,7 +2873,7 @@ section{
 }
 .hire{
     background-color: #20335b;
-    margin-top: 400px;
+    margin-top: 800px;
     width: 100%;
 }
 .box1 {
@@ -2905,21 +2892,33 @@ section{
   width: 100%;
   padding: 40px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
   gap: 50px;
 }
 
+.hire-section{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
 .hireust {
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
   color: white;
+  display: flex;
+  justify-content: center;
 }
 
 .hireustxt {
   color: #677788;
   font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
 }
 
 .divid2 {
@@ -2932,13 +2931,16 @@ section{
   font-size: 16px;
   color: #ffffff;
   line-height: 1.6;
+  display: flex; 
+  justify-content: center;
+  align-content: center;
 }
 
 .end {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
   margin-top: 20px;
   gap: 20px;
 }
@@ -2946,12 +2948,15 @@ section{
 .text-info {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-content: center;
 }
 
 .Name {
   font-weight: bold;
   font-size: 14px;
   color: white;
+  text-align: center;
 }
 
 .title {
@@ -2964,9 +2969,16 @@ section{
   height: 40px;
   border-radius: 50%;
   object-fit: cover;
+  dispaly: flex;
+  justify-content: center;
+  align-content: center;
 }
 
-
+.face{
+    display: flex;
+    justify-content: center;
+    
+}
 .form-container {
   background-color: #fff;
   padding: 30px;
