@@ -2601,6 +2601,7 @@ header{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 10px;
 }
 
@@ -2608,8 +2609,8 @@ header{
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    align-content: flex-end;
+    justify-content: center;
+    align-content: center;
     gap: 10px;
 }
 
@@ -2620,6 +2621,7 @@ header{
   position: relative;
   flex: 1;
   gap: 25px;
+  
 }
 
 .circle {
@@ -2630,6 +2632,7 @@ header{
   border: 10px solid #ecf2ff; 
   position: relative;
   z-index: 1;
+  text-align: center;
 }
 
 .label {
@@ -2726,7 +2729,7 @@ header{
     justify-content: center;
 }
 
-.pb1m {
+.pblm {
     width:100%;
     font-size: 14px;
     color: #677788;
@@ -2738,7 +2741,7 @@ header{
 
 .pb1mtxt{
     max-width: 100%;
-    padding: 0 200px;
+    padding: 0 100px;
     text-align: start;
 }
 
@@ -2787,9 +2790,7 @@ p{
     gap: 20px;
 }
 .pbr{
-    margin: 20px 20px;
-    height: 452px;
-    width: 100%;
+    width: fit-content;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -2861,6 +2862,12 @@ section{
     text-align: center;
 }
 
+.center-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;  
+}
 
 /* Hire Us section **/
 
@@ -2874,7 +2881,7 @@ section{
 }
 .hire{
     background-color: #20335b;
-    margin-top: 800px;
+    margin-top: 4%;
     width: 100%;
     display: flex;
     justify-content: center;
