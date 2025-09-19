@@ -1648,9 +1648,8 @@ header{
     flex-direction: column;
     justify-content: space-around;
     align-content: center;
-    
     gap: 20px;
-    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(0, 0, 0, 0.25);
 }
 
 .pb1t {
@@ -2692,9 +2691,8 @@ header{
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    
     gap: 20px;
-    box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.25);
+    border: 1px solid rgba(0, 0, 0, 0.25);
 }
 
 .pb1t {
