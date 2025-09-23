@@ -293,6 +293,7 @@ a {
     justify-content: center;
     align-items: center;
     justify-items: center;
+    animation: left 0.6s ease-out forwards;
 }
 .asana img{
     height: 48px;
@@ -311,6 +312,7 @@ a {
     justify-content: center;
          align-items: center;
     justify-items: center;
+    animation: top 0.6s ease-out forwards;
 }
 .atlassina img{
     height: 48px;
@@ -330,6 +332,7 @@ a {
     justify-content: center;
          align-items: center;
     justify-items: center;
+    animation: right 0.6s ease-out forwards;
 }
 .ic1b1{
     display: flex;
@@ -373,6 +376,7 @@ a {
     justify-content: center;
          align-items: center;
     justify-items: center;
+    animation: left 0.6s ease-out forwards;
 }
 
 .weave{
@@ -387,6 +391,7 @@ a {
     justify-content: center;
          align-items: center;
     justify-items: center;
+    animation: right 0.6s ease-out forwards;
 }
 
 .iconr2{
@@ -419,6 +424,7 @@ a {
     justify-content: center;
     align-items: center;
     justify-items: center;
+    animation: bottom 0.6s ease-out forwards;
 }
 
 .calendar{
@@ -433,6 +439,7 @@ a {
     justify-content: center;
     align-items: center;
     justify-items: center;
+    animation: bottom 0.6s ease-out forwards;
 }
 
 .iconr3{
@@ -1377,6 +1384,7 @@ header{
     justify-content: center;
     align-items: center;
     justify-items: center;
+    animation: left 0.6s ease-out forwards;
 }
 .asana img{
     height: 48px;
@@ -1395,6 +1403,7 @@ header{
     justify-content: center;
          align-items: center;
     justify-items: center;
+    animation: right 0.6s ease-out forwards;
 }
 .atlassina img{
     height: 48px;
@@ -1414,6 +1423,7 @@ header{
     justify-content: center;
          align-items: center;
     justify-items: center;
+    animation: top 0.6s ease-out forwards;
 }
 .ic1b1{
     display: flex;
@@ -1457,6 +1467,7 @@ header{
     justify-content: center;
          align-items: center;
     justify-items: center;
+    animation: left 0.6s ease-out forwards;
 }
 
 .weave{
@@ -1471,6 +1482,7 @@ header{
     justify-content: center;
          align-items: center;
     justify-items: center;
+    animation: right 0.6s ease-out forwards;
 }
 
 .iconr2{
@@ -1503,6 +1515,7 @@ header{
     justify-content: center;
     align-items: center;
     justify-items: center;
+    animation: bottom 0.6s ease-out forwards;
 }
 
 .calendar{
@@ -1517,6 +1530,7 @@ header{
     justify-content: center;
     align-items: center;
     justify-items: center;
+    animation: bottom 0.6s ease-out forwards;
 }
 
 .iconr3{
@@ -2435,6 +2449,7 @@ header{
     justify-content: center;
     align-items: center;
     justify-items: center;
+    animation: left 0.6s ease-out forwards;
 }
 .asana img{
     height: 48px;
@@ -2453,6 +2468,7 @@ header{
     justify-content: center;
          align-items: center;
     justify-items: center;
+    animation: top 0.6s ease-out forwards;
 }
 .atlassina img{
     height: 48px;
@@ -2472,6 +2488,7 @@ header{
     justify-content: center;
          align-items: center;
     justify-items: center;
+    animation: right 0.6s ease-out forwards;
 }
 .ic1b1{
     display: flex;
@@ -2509,6 +2526,7 @@ header{
     justify-content: center;
          align-items: center;
     justify-items: center;
+    animation: left 0.6s ease-out forwards;
 }
 
 .weave{
@@ -2523,6 +2541,7 @@ header{
     justify-content: center;
          align-items: center;
     justify-items: center;
+    animation: right 0.6s ease-out forwards;
 }
 
 .iconr2{
@@ -2554,6 +2573,7 @@ header{
     justify-content: center;
     align-items: center;
     justify-items: center;
+    animation: bottom 0.6s ease-out forwards;
 }
 
 .calendar{
@@ -2568,6 +2588,7 @@ header{
     justify-content: center;
     align-items: center;
     justify-items: center;
+    animation: bottom 0.6s ease-out forwards;
 }
 
 .iconr3{
@@ -3293,3 +3314,24 @@ button[type="submit"] {
     opacity: 1;
   }
 }
+@keyframes left {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes right {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+animation: left 0.6s ease-out forwards;
